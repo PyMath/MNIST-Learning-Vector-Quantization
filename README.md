@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 2. Run main script
 ```
-python lbq.py -np=int -nc=int -lr=float -e=int -nt=int -mc=float -save=str
+python lvq.py -np=int -nc=int -lr=float -e=int -nt=int -mc=float -save=str
 ```
 -np, --num_protos: Number of prototypes to initialize  
 -nc, --num_classes: Number of classes associated with dataset (script assumes all classes used in MNIST)  
