@@ -22,7 +22,11 @@ def mean_confidence_interval(data, confidence=0.95):
 
 
 def get_mnist():
-    """ Grab the mnist dataset """
+    """
+    Grab the mnist dataset
+    :returns: training set, training labels, test set, and test labels
+    :rtype: list, list, list, list
+    """
     mndata = MNIST('./data/')
     train_x, train_y = mndata.load_training()
     test_x, test_y = mndata.load_testing()
